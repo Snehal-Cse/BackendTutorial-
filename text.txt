@@ -1,0 +1,90 @@
+server is a software/ it serves 
+ front end interacts with backend using apis and backend gets the data/ validates the data from the databases 
+ package.json / .env to store environment variables 
+ file structure
+ APP -- configs, cookies
+ index -- database connect 
+ constant enums 
+ Database 
+ Models
+ Controllers -- functionality -- take methods and process it 
+ Routes -- route 
+ Middleware 
+ Utils 
+ More
+
+lecture 2 
+
+computer sends request to server and server responds to computer
+there are 4 requests -- get, post, put, delete
+use npm init -y -- it will say yes to all and it will create empty node file
+go  make a start command in script.js and and give it as node index.js and then use npm run start to run ur file
+total no. of ports are around 65000
+
+dotenv -- pull all the secret information into it
+it includes api keys, database and more 
+storing them in seperate file makes it easier to manage and updata them without modifying the code
+
+production
+
+git init 
+use .gitignore to not upload all the node modules 
+use npm install and all these modules will automatically appear
+git add .
+git commit -m""
+git branch -M main
+git remote add origin ""
+git push 
+digital ocean -- production
+push the sensitive data to env 
+
+JSON is like data transfer object, it is used to exchange the data over the internet
+JSON.stringify --- javascript to json file 
+student is an object 
+so i can convert javascript object to json file
+JSON.stringify(student)
+JSON.parse() -- json to object 
+
+lecture 3
+
+use backend and frontend 
+
+if u r using import express from 'express 
+then put type: module
+
+npm i cors 
+const cors = require('cors')
+app.use('cors')
+add this in backend 
+
+ we are using axios in useefect 
+
+ we also learnt about proxy 
+ we can give proxy '/api' : "link of backend" in package . json to connect front end and backend
+
+ lecture 4 
+
+ he told about the project 
+
+ lecture 5
+
+ mongoose, 
+
+moon modeler -- give all the atributes for mongoose 
+
+stackbliz, codesandbox . codespaces are providing coding environment where u can practive
+
+in mongoose/ models -- User will be converted to "users" in data base 
+while writing subtodos 
+createdBy:{
+    type: mongoose.Schema.Types.ObjectId,
+    ref:'User
+}
+
+// lecture 6
+the standard practice of saving models is user.models.js
+also learnt about enum 
+
+// lecture 7 
+
+now we are making a projects 
